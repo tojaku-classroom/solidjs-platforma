@@ -1,10 +1,7 @@
-import Cats from "./Cats";
+import Styles from "./Styles"
 
 export default function App() {
-
   return (
-    <>
-      <Cats />
-    </>
+    <Styles />
   )
 }
