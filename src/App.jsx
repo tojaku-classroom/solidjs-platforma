@@ -1,9 +1,13 @@
-import Styles from "./Styles"
+import Children from "./Children"
 
 export default function App() {
   return (
     <>
-      <Styles />
+      <Children>
+          <p>Prvi odlomak</p>
+          <p>Drugi odlomak</p>
+          <div>Treći (ne) odlomak</div>
+      </Children>
     </>
   )
 }

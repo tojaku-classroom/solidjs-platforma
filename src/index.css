@@ -71,3 +71,12 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+button {
+  display: block;
+}
+
+.selected {
+  background-color: aquamarine;
+  color: brown;
+}
